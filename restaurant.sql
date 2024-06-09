@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 07, 2024 at 02:07 AM
+-- Generation Time: Jun 10, 2024 at 12:41 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -273,7 +273,8 @@ INSERT INTO `users` (`id`, `username`, `firstName`, `lastName`, `email`, `phone`
 (7, 'max', 'max', 'max', 'max@max.com', 123456789, '0', '$2y$10$ykJxpQxVX790dT/8uiFWbuAzHcohdElDxp8gtDBpyHyocRiZDoqd.', '2022-03-15 12:00:52'),
 (8, 'Sam', 'Sam', 'Samo', 'sam@gmail.com', 123456789, '0', '$2y$10$gZT.pllXz4JwjpP29W.K/OcSbV4QAn/dHu4ykkGAWd7WjgPgpq.iC', '2022-04-04 00:56:56'),
 (9, 'Rami', 'rami', 'rami', 'rami@gm.com', 123456789, '0', '$2y$10$Fz2t2S4LPmGXJkdx6xBMUeRfI0J00UchvwDYuMYlfpKj9UI/0.rtm', '2022-05-15 06:22:24'),
-(10, 'admin', 'admin', 'admin', 'admin@admin.com', 687435756, '1', '$2y$10$mHZ8wIO.7x1Ove4Z0ocVn.oi7m8/z.xuQ8WOIsydwb.Dvqdo2JcBm', '2024-06-07 02:04:59');
+(10, 'admin', 'admin', 'admin', 'admin@admin.com', 687435756, '1', '$2y$10$mHZ8wIO.7x1Ove4Z0ocVn.oi7m8/z.xuQ8WOIsydwb.Dvqdo2JcBm', '2024-06-07 02:04:59'),
+(11, 'marko', 'marko', 'marko', 'marko@gmail.com', 67854672, '0', '$2y$10$Z88BBJeRYDOXEVujAuRcyuU/wtiGEN9rYvpGwQWAt5J5SYnSdv3z2', '2024-06-10 00:41:37');
 
 -- --------------------------------------------------------
 
@@ -421,7 +422,7 @@ ALTER TABLE `sushi`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(21) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(21) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `viewcart`
