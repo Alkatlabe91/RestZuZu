@@ -1,7 +1,7 @@
-admin:
+##admin:
 Username: admin
 Password: admin
 
-member:
-username: marko
+##user:
+username: test
 password: 123123
