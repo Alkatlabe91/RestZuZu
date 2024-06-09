@@ -1,7 +1,7 @@
-##admin:
-Username: admin
+##admin:<br/>
+Username: admin<br/>
 Password: admin
-
-##user:
-username: test
+<br/>
+##user:<br/>
+username: test<br/>
 password: 123123
